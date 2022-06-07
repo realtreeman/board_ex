@@ -20,5 +20,7 @@
 		<input type="hidden" name="bno" value="${board.bno}">
 		<button class="btn btn-warning">수정</button>
 	</form>
+	<a href="${contextPath}/board/list">목록으로</a>
 </div>
 <%@ include file="/WEB-INF/views/layout/footer.jspf" %>
+
